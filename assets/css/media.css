@@ -3,8 +3,83 @@
         display: none;
     }
 }
-
-@media only screen and (max-width: 416px){
+@media only screen and (max-width: 374px){
+    .container{
+        top: 5%;
+        left: 25px;
+        width: 320px;
+        height: 670px;
+    }
+    .background-image{
+        width: 320px;
+    }
+    .orderr {
+        margin-left: -70px;
+    }
+    .container-plan{
+        margin: 10px 20px;
+    }
+    .link-change {
+        margin-left: 65%;
+    }
+    .btn-payment {
+        padding: 10px 60px;
+        margin-left: 20px;
+    }
+    .annual-plan{
+        margin-left: 25% 
+    }
+    .price{
+        margin-top: 15%;
+        margin-left: 25%; 
+    }
+    .btn-cancel-order {
+        margin-left: 35%;
+    }
+    footer{
+        display: none;
+    }
+}    
+@media only screen and (min-width: 375px) and (max-width: 394px){
+    .container{
+        top: 5%;
+        left: 20px;
+        width: 350px;
+        height: 670px;
+    }
+    .background-image{
+        width: 350px;
+    }
+    .orderr {
+        margin-left: -70px;
+    }
+    .container-plan{
+        margin: 10px 20px;
+    }
+    .link-change {
+        margin-left: 65%;
+    }
+    .btn-payment {
+        padding: 10px 70px;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .annual-plan{
+        margin-left: 25% 
+    }
+    .price{
+        margin-top: 15%;
+        margin-left: 25%; 
+    }
+    .btn-cancel-order {
+        margin-top: 110px;
+        margin-left: 38%;
+    }
+    footer{
+        display: none;
+    }
+}
+@media only screen and (min-width: 395px) and (max-width: 416px){
     .background{
         display: none;
     }    

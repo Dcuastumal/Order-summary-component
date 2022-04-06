@@ -101,6 +101,6 @@ h2 {
 .attribution{ 
     position: relative;
     top: 400px;
-    left: 47%;
+    text-align: center;
     font-size: 10px;
 }
