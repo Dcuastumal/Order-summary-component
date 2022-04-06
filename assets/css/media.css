@@ -1,0 +1,39 @@
+@media only screen and (min-width: 416px){
+    .background-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 416px){
+    .background{
+        display: none;
+    }    
+    .background-mobile{
+        width: 100%;
+    }
+    .container{
+        top: 10%;
+        left: 15px;
+        width: 380px;
+        height: 670px;
+    }
+    .background-image{
+        width: 380px;
+    }
+    .orderr {
+        margin-left: -40px;
+    }
+    .container-plan{
+        margin: 20px 20px;
+    }
+    .link-change {
+        margin-left: 65%;
+    }
+    .btn-payment {
+        padding: 15px 90px;
+        margin-left: 20px;
+    }
+    footer{
+        margin-top: 160px;    
+    }
+}
